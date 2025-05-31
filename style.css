@@ -1,0 +1,18 @@
+colgroup::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+colgroup::before {
+  content: "";
+  display: table;
+}   
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  background-color: #f0f0f0;
+}
